@@ -1,0 +1,36 @@
+body {
+	margin: 0;
+	font-family: sans-serif;
+	padding: 0;
+}
+
+.container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+h1 {
+	font-size: 3em;
+	--y-value-of-stroke: 50;
+	--x-value-of-stroke: 100;
+	--number-of-lines: 100;
+	--color-of-stroke: rgb(235, 186, 27);
+	background: paint(brushstroke);
+	padding: 20px;
+	border: 1px solid;
+}
+
+p {
+	--y-value-of-stroke: 200;
+	--x-value-of-stroke: 300;
+	--number-of-lines: 300;
+	--color-of-stroke: rgb(235, 186, 27);
+	background: paint(brushstroke);
+	padding: 20px;
+	border: 1px solid;
+	width: 60%;
+}
